@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { getMessages, sendMessage, getChatroomParticipantsCount, deleteChatroom } from '../services/api';
+import { getMessages, sendMessage, getChatroomParticipantsCount, deleteChatroom } from 'common/usecases';
 import '../css/ChatScreen.css';
 
 const ChatScreen = ({ chatroom: propChatroom, onBack, refreshChatrooms }) => {

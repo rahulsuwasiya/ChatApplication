@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { registerUser } from '../services/api';
+import { registerUser } from 'common/usecases';
 import '../css/RegisterScreen.css';
 
 const RegisterScreen = () => {

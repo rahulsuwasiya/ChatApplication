@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { searchUsers, joinChatroom } from '../services/api';
+import { searchUsers, joinChatroom } from 'common/usecases';
 
 const UsersList = () => {
   const userId = localStorage.getItem('userId');

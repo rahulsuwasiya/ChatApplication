@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { loginUser } from '../services/api';
+import { loginUser } from 'common/usecases';
 import '../css/LoginScreen.css';
 
 const LoginScreen = () => {

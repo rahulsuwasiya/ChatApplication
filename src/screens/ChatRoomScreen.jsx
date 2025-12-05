@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { getUserChatrooms, createChatroom, logoutUser, searchUsers, joinChatroom, getChatroomParticipants, getChatroomParticipantsCount } from '../services/api';
+import { getUserChatrooms, createChatroom, logoutUser, searchUsers, joinChatroom, getChatroomParticipants, getChatroomParticipantsCount } from 'common/usecases';
 import ChatScreen from './ChatScreen';
 import '../css/ChatRoomScreen.css';
 
